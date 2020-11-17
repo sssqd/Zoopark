@@ -20,7 +20,7 @@ namespace sssq_d
 
             Butterfly butterfly = new Butterfly("Конан", new DateTime(2020, 11, 14));
             Console.WriteLine($" Возраст Конан: {butterfly.Age()} лет");
-            ((IFlying)butterfly).Walk();
+            ((IFlying)butterfly).Walk(); 
         }
     }
 }
